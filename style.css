@@ -1,0 +1,69 @@
+body{margin: 0;
+}
+h1{
+    font-size: 50px;
+    color: beige ;
+}
+.korobka{
+    color: #beige;
+    padding: 0 70px;
+    text-align: center;
+    height: 100vh;
+    width: 50%;
+    margin: 0 10px 0 10px;
+}
+.hcenter{
+    align-items: center;
+}
+.wcenter{
+   justify-content: center; 
+}
+.dflex{
+    display: flex;
+    
+}
+.sectionHero{
+    background-color: black;
+}
+.prizrak{
+    position: absolute;
+    width: 80px;
+    left: 0px;
+}
+.t200{
+    top: 200px;
+
+}
+.t300{
+    top: 300px;
+
+}.t400{
+    top: 400px;
+
+}.t500{
+    top: 500px;
+
+}
+img{
+    width: 100%;
+    z-index: 6;
+}
+.krug{
+    z-index: 5;
+    position: absolute;
+    top: 500px;
+    height: 1px;
+    width: 1px;
+    left: calc(50% + 500px );
+    background-color: pink;
+    box-shadow: 0 0 220px 200px pink;
+
+}
+    
+.btn{
+    background-color: black;
+    color: pink;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 10px 30px;
+}
